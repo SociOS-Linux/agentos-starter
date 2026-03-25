@@ -1,0 +1,2 @@
+Imported from: /Users/michaelheller/Downloads/agentos-skeleton 2
+Canonical name: agentos-starter
