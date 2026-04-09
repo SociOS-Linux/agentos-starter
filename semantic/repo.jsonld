@@ -1,0 +1,26 @@
+{
+  "@context": "https://raw.githubusercontent.com/SourceOS-Linux/sourceos-spec/main/semantic/context.jsonld",
+  "@id": "urn:sourceos:repo:SociOS-Linux:agentos-starter",
+  "@type": ["RepoDescriptor", "Repository"],
+  "name": "agentos-starter",
+  "description": "Starter / scaffold repo for AgentOS interfaces, policy, Linux integration, and registry structure.",
+  "repositoryFullName": "SociOS-Linux/agentos-starter",
+  "repoUrl": "https://github.com/SociOS-Linux/agentos-starter",
+  "organization": "SociOS-Linux",
+  "defaultBranch": "main",
+  "semanticDescriptorVersion": "0.1.0",
+  "topologyRole": "roleStarterScaffold",
+  "connectsTo": [
+    "urn:sourceos:repo:SociOS-Linux:agentos-spine",
+    "urn:sourceos:repo:SourceOS-Linux:sourceos-spec",
+    "urn:sourceos:repo:SociOS-Linux:workstation-contracts",
+    "urn:sourceos:repo:SociOS-Linux:SourceOS"
+  ],
+  "consumesVocabularyFrom": "urn:sourceos:repo:SourceOS-Linux:sourceos-spec",
+  "notThisRepo": [
+    "workspace controller",
+    "immutable substrate",
+    "canonical typed-contract registry",
+    "public docs site"
+  ]
+}
